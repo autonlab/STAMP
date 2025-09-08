@@ -19,19 +19,6 @@ tmp/**
 
 *.mdb
 
-# notebooks
-**/*gpu*.ipynb
-**/*lov*.ipynb
-**/*checkpoint.ipynb
-notebooks/local_pw/**
-
 
 #IDE
 .vscode/**
-
-# viz_js
-js_visualizations/public/data/*
-js_visualizations/node_modules/*
-js_visualizations/package-lock.json
-js_visualizations/package.json
-
