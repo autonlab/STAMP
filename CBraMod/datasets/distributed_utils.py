@@ -14,6 +14,8 @@ import shutil
 from .utils import get_simple_gpu_info
 from ..preprocessing.lmdb_writer import LMDBWriter
 
+'''This code is original and not adapted from CBraMod'''
+
 def process_distributed_all_modes(dataset, available_gpus, chunk_size, temp_chunks_dir,
                                          model_name, model_dir, model_load_fn, use_amp,
                                          output_path, map_size_per_mode):
