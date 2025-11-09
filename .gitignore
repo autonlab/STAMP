@@ -1,0 +1,24 @@
+*.pyc
+data/*
+experiments/*
+old_experiments/*
+.pytest_cache/*
+*.csv
+*.png
+
+# deep learning
+*.ckpt
+lightning_logs/*
+wandb/*
+results/*
+stamp/modeling_approaches/deep_learning/configs/*
+!**/default.yaml
+stamp/modeling_approaches/deep_learning/models/.gitignore
+notebooks/best_checkpoint.pth
+tmp/**
+stamp.egg-info/**
+*.mdb
+
+
+#IDE
+.vscode/**
