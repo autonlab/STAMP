@@ -3,13 +3,13 @@
 **Official Implementation of _“STAMP: Spatial-Temporal Adapter with Multi-Head Pooling”_ (ML4H 2025, Proceedings of Machine Learning Research 297)**  
 by [Brad Shook](mailto:bshook@andrew.cmu.edu), Abby Turner, Jieshi Chen, Michał Wiliński, Mononito Goswami, Jonathan Elmer, and Artur Dubrawski
 
+arXiv: https://www.arxiv.org/abs/2511.10848
+
 ---
 
 ## 🧩 Abstract
 
-Time series foundation models (TSFMs) pretrained on data from multiple domains have shown strong performance on diverse modeling tasks. Various efforts have been made to develop foundation models specific to electroencephalography (EEG) data, which records brain electrical activity as time series. However, no comparative analysis of EEG-specific foundation models (EEGFMs) versus general TSFMs has been performed on EEG-specific tasks.
-
-We introduce a novel **Spatial-Temporal Adapter with Multi-Head Pooling (STAMP)**, which leverages univariate embeddings produced by a general TSFM, implicitly models spatial-temporal characteristics of EEG data, and achieves performance comparable to state-of-the-art EEGFMs. A comprehensive analysis is performed on 8 benchmark datasets of clinical classification tasks using EEG. Our proposed adapter is lightweight in trainable parameters and flexible in the inputs it can accommodate, supporting easy modeling of EEG data using TSFMs.
+Time series foundation models (TSFMs) pretrained on data from multiple domains have shown strong performance on diverse modeling tasks. Various efforts have been made to develop foundation models specific to electroencephalography (EEG) data, which records brain electrical activity as time series. However, no comparative analysis of EEG-specific foundation models (EEGFMs) versus general TSFMs has been performed on EEG-specific tasks. We introduce a novel Spatial-Temporal Adapter with Multi-Head Pooling (STAMP), which leverages univariate embeddings produced by a general TSFM, implicitly models spatial-temporal characteristics of EEG data, and achieves performance comparable to state-of-the-art EEGFMs. A comprehensive analysis is performed on 8 benchmark datasets of clinical tasks using EEG for classification, along with ablation studies. Our proposed adapter is lightweight in trainable parameters and flexible in the inputs it can accommodate, supporting easy modeling of EEG data using TSFMs.
 
 ---
 
