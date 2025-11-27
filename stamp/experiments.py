@@ -7,7 +7,7 @@ import numpy as np
 import random
 import matplotlib.pyplot as plt
 from shutil import rmtree as shutil_rmtree
-from CBraMod.datasets import lmdb_embedding_dataset, lmdb_np_dataset, lmdb_pickle_dataset
+from stamp.datasets import lmdb_embedding_dataset, lmdb_np_dataset, lmdb_pickle_dataset
 from stamp.datasets.utils import (verify_data_loader, 
                                     get_simple_gpu_info, get_dataset_params, get_problem_type,
                                     get_monitor_metric, get_embeddings_dir)
